@@ -7,6 +7,10 @@ streamlit-pandas-profiling
 streamlit-aggrid
 streamlit-image-coordinates
 streamlit-plotly-events
+streamlit-tags
+streamlit-drawable-canvas
 
 # etc
+openai
 folium
+python-dotenv

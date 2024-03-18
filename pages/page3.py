@@ -1,12 +1,9 @@
-import streamlit as st
-import pandas as pd
 import folium
-from streamlit_extras.metric_cards import style_metric_cards
-from streamlit_image_coordinates import streamlit_image_coordinates
-from streamlit_plotly_events import plotly_events
+import pandas as pd
+import streamlit as st
 from st_aggrid import AgGrid
-from streamlit_pandas_profiling import st_profile_report
 from streamlit_folium import st_folium
+from streamlit_image_coordinates import streamlit_image_coordinates
 
 st.title('Data elements')
 st.sidebar.markdown('Yes, it is. data elements! :sunglasses:')
@@ -45,6 +42,8 @@ st.header('Dicts and JSON')
 st.subheader('Display object or string as a pretty-printed JSON string.')
 st.json(my_dict)
 
+df = pd.read_csv('myfile.csv')
+
 st.header('Streamlit Folium')
 
 m = folium.Map(location=[45.5236, -122.6750])
@@ -53,7 +52,7 @@ st_data = st_folium(m)
 
 st.header('Streamlit Image Coordinates')
 
-value = streamlit_image_coordinates("https://placekitten.com/200/300")
+value = streamlit_image_coordinates("sample.png")
 st.write(value)
 
 st.header('Streamlit Plotly Events')
