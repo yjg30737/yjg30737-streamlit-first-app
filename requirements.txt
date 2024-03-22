@@ -3,12 +3,20 @@ streamlit
 # Third-party components
 streamlit-folium
 streamlit_extras
-streamlit-pandas-profiling
-streamlit-aggrid
+streamlit-pandas-profiling # not necessary to me
+streamlit-aggrid # not necessary to me
 streamlit-image-coordinates
-streamlit-plotly-events
+streamlit-plotly-events # not necessary to me
 streamlit-tags
 streamlit-drawable-canvas
+streamlit-chat
+stqdm # for making progress bar easily
+streamlit-option-menu # not necessary to me
+streamlit-elements==0.1.* # not necessary to me
+streamlit-timeline
+streamlit-camera-input-live # this is good for real-time camera streaming, not necessary to me
+streamlit-ace # editor, whatever
+
 
 # etc
 openai
