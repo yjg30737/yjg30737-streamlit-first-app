@@ -33,13 +33,15 @@ with elements('multiple_children'):
         'Button with multiple children'
     )
 
-import time
-from stqdm import stqdm
-
-# https://github.com/Wirg/stqdm
-# Even though streamlit supports progressbar, they say this is the simplest way to use progressbar
-for _ in stqdm(range(5)):
-    time.sleep(0.5)
+# import time
+# from stqdm import stqdm
+#
+# # https://github.com/Wirg/stqdm
+# # Even though streamlit supports progressbar, they say this is the simplest way to use progressbar
+# for _ in stqdm(range(5)):
+#     time.sleep(0.5)
+# Related bug:
+# It loads again for some reasons
 
 from streamlit_timeline import timeline
 
