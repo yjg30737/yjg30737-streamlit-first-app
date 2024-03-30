@@ -17,6 +17,9 @@ streamlit-timeline
 streamlit-camera-input-live # this is good for real-time camera streaming, not necessary to me - this needs to be set up with some way
 streamlit-ace # very simple editor (like jupyter notebook)
 
+# Media
+streamlit-webrtc # webrtc for streaming video
+
 # etc
 openai
 folium
