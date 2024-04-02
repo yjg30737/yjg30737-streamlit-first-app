@@ -8,7 +8,7 @@ from streamlit_image_coordinates import streamlit_image_coordinates
 st.title('Data elements')
 st.sidebar.markdown('Yes, it is. data elements! :sunglasses:')
 
-df = pd.read_csv('myfile.csv')
+df = pd.read_csv('test_csv.csv')
 
 st.header('Dataframes')
 st.subheader('Display a dataframe as an interactive table.')
