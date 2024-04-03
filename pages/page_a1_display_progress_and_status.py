@@ -29,3 +29,34 @@ with st.status('Running'):
 # Toast
 # Briefly displays a toast message in the bottom-right corner.
 st.toast('Butter!', icon='🦄')
+
+# Balloons
+# Display celebratory balloons!
+st.balloons()
+
+# Snowflakes
+# Display celebratory snowflakes!
+st.snow()
+
+# Error box
+# Display error message.
+st.error('This is an error message')
+
+# Warning box
+# Display warning message.
+st.warning('This is a warning message')
+
+# Info box
+# Display info message.
+st.info('This is an info message')
+
+# Success box
+# Display success message.
+st.success('This is a success message')
+
+# Exception
+# Display exception message.
+try:
+    raise RuntimeError('This is an exception')
+except RuntimeError as e:
+    st.exception(e)
