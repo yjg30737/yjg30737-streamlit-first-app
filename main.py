@@ -32,3 +32,8 @@ st.markdown(
     - Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
 """
 )
+
+# Concept of signal and slot
+button = st.button("Click me!")
+if button:
+    st.balloons()
